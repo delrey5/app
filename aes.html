@@ -10,6 +10,10 @@
     }
     #pwd {
         width: 100%;
+        height: 75px;
+    }
+    .btn {
+        height: 75px;
     }
 </style>
 <script>
@@ -64,8 +68,8 @@ function decode() {
                 <input id="pwd" type="password" />
             </div>
             <div>
-                <input type="button" value="encode" onClick="encode()">
-                <input type="button" value="decode" onClick="decode()">
+                <input class="btn" type="button" value="encode" onClick="encode()">
+                <input class="btn" type="button" value="decode" onClick="decode()">
             </div>
         </div>
     </form>
